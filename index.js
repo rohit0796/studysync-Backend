@@ -16,7 +16,7 @@ app.use(bodyParser.json({ limit: '10mb' }));
 app.use(bodyParser.urlencoded({ limit: '10mb', extended: true }));
 app.use(express.json())
 app.use(cors(
-  { origin:'https://studentdetails-22389.web.app/',
+  { origin:'https://studentdetails-22389.web.app',
    credentials:true,            
     optionSuccessStatus:200
   }))
